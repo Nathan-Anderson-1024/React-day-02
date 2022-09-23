@@ -13,6 +13,30 @@
     flex-direction: column;
     max-width: 25vw;
 }
+.movie-rating {
+    font-size: 32px;
+    color: blue;
+    font-weight: bold;
+}
+.rating-run {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.rating, .run, .genre {
+    background-color: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.genre {
+    width: 50%;
+    margin-top: 8px;
+}
+
+.plot, .actors {
+    margin-top: 0;
+}
 /* .movie-info > * {
     margin: 0;
 }

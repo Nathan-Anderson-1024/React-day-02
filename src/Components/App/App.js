@@ -1,6 +1,7 @@
 import MovieCard from '../MovieCard/MovieCard';
 import MovieDetails from '../MovieDetails/MovieDetails';
 import './App.css';
+import PropTypes from 'prop-types'
 
 function App() {
   const movieObject = {
@@ -12,6 +13,7 @@ function App() {
     plot: 'Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of hero it really needs.',
     actors: "Ben Affleck, Henry Cavill, Amy Adams, Jesse Eisenberg",
     type:'Movie',
+    rating: 6.4
   }
   return (
     <>
@@ -23,3 +25,7 @@ function App() {
 }
 
 export default App;
+
+App.propTypes = {
+
+}
