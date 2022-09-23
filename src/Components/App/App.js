@@ -27,5 +27,5 @@ function App() {
 export default App;
 
 App.propTypes = {
-
+  movieObject: PropTypes.object
 }

@@ -9,10 +9,10 @@ export default function MovieDetails(props) {
                 <img className='movie-poster' src={logo}></img>
             </div>
             <div className='movie-info'>
-                <h2 className='movie-title'>{props.movieObject.title}</h2>
+                <h2 className='movie-title'>{props.movieObject.title || 'Default Title'}</h2>
                 <div className='rating-run'>
-                    <h4 className='rating'>{props.movieObject.rated}</h4>
-                    <h4 className='run'>{props.movieObject.runtime}</h4>
+                    <h4 className='rating'>{props.movieObject.rated || 'Default Rating'}</h4>
+                    <h4 className='run'>{props.movieObject.runtime || 'Default runTime'}</h4>
                 </div>
                 <h4 className='genre'>{props.movieObject.genre}</h4>
                 <h3 style={{fontWeight: 'bold'}}>Plot</h3>
