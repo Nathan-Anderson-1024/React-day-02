@@ -1,0 +1,26 @@
+.movie-poster {
+    max-width: 25vw;
+    margin-right: 16px;
+}
+.movie-container-expanded {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 48px;
+}
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 25vw;
+}
+/* .movie-info > * {
+    margin: 0;
+}
+
+.rating-run {
+    display: flex;
+    
+}
+.rating {
+    margin-right: 16px;
+} */
