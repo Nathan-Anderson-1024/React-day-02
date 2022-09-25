@@ -7,7 +7,7 @@ function App() {
   const [movieObject, setMovieArray] = useState([]);
 
   useEffect(() => {
-    fetch(`http://www.omdbapi.com/?i=tt2975590&apikey=c18c59e4`).then(response => response.json()).then(json => {
+    fetch(`http://www.omdbapi.com/?i=tt2975590&apikey=`).then(response => response.json()).then(json => {
       setMovieArray(json);
       console.log(movieObject)
     })
