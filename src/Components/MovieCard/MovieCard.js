@@ -7,9 +7,9 @@ export default function MovieCard(props) {
     <div className='movie-container'>
         <img src={logo} className='logo'></img>
         <div className='title'>
-            <h3>{props.movieObject.title}</h3>
-            <a href={props.movieObject.posterUrl} target='_blank' className='button'>
-              <button>{props.movieObject.type}</button>
+            <h3>{props.movieObject.Title}</h3>
+            <a href={props.movieObject.Poster} target='_blank' className='button'>
+              <button>{props.movieObject.Type}</button>
             </a>
             
         </div>
