@@ -5,9 +5,9 @@ import PropTypes from 'prop-types'
 import {useState, useEffect} from 'react'
 function App() {
   const [movieObject, setMovieArray] = useState([]);
-
+  const apiKey = process.env.REACT_APP_API_KEY
   useEffect(() => {
-    fetch(`http://www.omdbapi.com/?i=tt2975590&apikey=`).then(response => response.json()).then(json => {
+    fetch(`http://www.omdbapi.com/?i=tt2975590&apikey=${apiKey}`).then(response => response.json()).then(json => {
       setMovieArray(json);
       console.log(movieObject)
     })
